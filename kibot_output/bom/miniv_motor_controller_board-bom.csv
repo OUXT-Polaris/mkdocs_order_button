@@ -1,0 +1,40 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet
+1,Unpolarized capacitor,C,C1,0.1u,C_Disc_D5.1mm_W3.2mm_P5.00mm,1, ,https://akizukidenshi.com/catalog/g/g110147/
+2,Light emitting diode,LED,D2,LED,LED_D3.0mm,1, ,https://akizukidenshi.com/catalog/g/g111636/
+3,Fuse,Fuse,F1,Fuse,3557-15,1, ,https://akizukidenshi.com/catalog/g/g118223/
+4,"Generic connector, single row, 01x02, script generated",Conn_01x02_Pin,J4,Conn_EStop_Signal,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,1, ,https://akizukidenshi.com/catalog/g/g112247/
+5,"Generic connector, single row, 01x02, script generated",Conn_01x02_Pin,J1 J2,DC_in,AMASS_XT60PW-F_1x02_P7.20mm_Horizontal,2, ,https://akizukidenshi.com/catalog/g/g118155/
+6,"Generic connector, single row, 01x02, script generated",Conn_01x02_Pin,J3,T200_ESC_signal,AMASS_XT30PW-F_1x02_P2.50mm_Horizontal,1, ,https://akizukidenshi.com/catalog/g/g117948
+7,"Jumper, 2-pole, closed/bridged",Jumper_2_Bridged,JP7,Relay_COM,SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm,1, ,~
+8,"Jumper, 2-pole, closed/bridged",Jumper_2_Bridged,JP5,Relay_GND,SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm,1, ,~
+9,"Jumper, 2-pole, closed/bridged",Jumper_2_Bridged,JP2,Relay_NO,SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm,1, ,~
+10,"Jumper, 2-pole, closed/bridged",Jumper_2_Bridged,JP4,Relay_SIG,SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm,1, ,~
+11,"Jumper, 2-pole, closed/bridged",Jumper_2_Bridged,JP6,Relay_VCC,SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm,1, ,~
+12,,M78AR05-1,M78AR05-1,~,M78AR05-1,1, ,https://akizukidenshi.com/catalog/g/g113536/
+13,Resistor,R,R4 R5 R8,390,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,3, ,https://akizukidenshi.com/catalog/g/g108531/
+14,Resistor,R,R1 R2 R6 R7,1K,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,4, ,https://akizukidenshi.com/catalog/g/g108535/
+15,"Momentary Switch, dual pole double throw",SW_Push_DPDT,SW1,SW_Push_DPDT,2MD1-T2-B4-M2-Q-N,1, ,https://akizukidenshi.com/catalog/g/g100301/
+16,"Switch, single pole double throw",SW_SPDT,SW2,SW_disable_EStop,SS-12D00G3,1, ,https://akizukidenshi.com/catalog/g/g115707/
+17,"MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, DIP4",TLP222A,U2 U3,TLP624,DIP-4_W7.62mm,2, ,https://akizukidenshi.com/catalog/g/g107551/
+18,,Teensy4.1,U1,Teensy4.1,Teensy41,1, ,https://www.digikey.jp/ja/products/detail/sparkfun-electronics/DEV-20359/16688101
+19,,AE-RELAY953B-12V,U4,~,AE-RELAY953B-12V,1, ,https://akizukidenshi.com/catalog/g/g106095/
+20,,RJLD-260YC1,U5,~,RJLD-260YC1,1, ,https://akizukidenshi.com/catalog/g/g129472/
+21,,TC74HC32AP,U6,~,DIP-14_W7.62mm,1, ,https://akizukidenshi.com/catalog/g/g112877/
+22,,MIWI06-24S12,U7,~,MIWI06-24S12,1, ,https://akizukidenshi.com/catalog/g/g106533/
+
+
+
+
+
+Project info:
+Schematic:,miniv_motor_controller_board
+Variant:,default
+Revision:,
+Date:,2024-12-03_16-24-39
+KiCad Version:,8.0.6-8.0.6-0~ubuntu22.04.1
+Statistics:
+Component Groups:,22
+Component Count:,29
+Fitted Components:,29
+Number of PCBs:,1
+Total Components:,29
