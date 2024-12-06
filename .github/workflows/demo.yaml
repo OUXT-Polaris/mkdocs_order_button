@@ -11,7 +11,7 @@ on:
 
 jobs:
   build_demo:
-    name: python
+    name: Build demo
     runs-on: ubuntu-latest
 
     steps:
