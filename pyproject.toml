@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "mkdocs-order-button"
 version = "0.1.0"
@@ -5,5 +9,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "mkdocs>=1.6.1",
+    "markdown==3.3.0",
+    "mkdocs>=1.5.3",
+    "mkdocs-material>=9.5.18",
+    "plantuml-markdown>=3.10.4",
+    "pymdown-extensions>=10.4",
 ]
+license = { file = "LICENSE" }
