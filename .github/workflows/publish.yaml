@@ -15,7 +15,7 @@ jobs:
       # IMPORTANT: this permission is mandatory for trusted publishing
       id-token: write
     steps:
-      # retrieve your distributions here
+      - uses: actions/checkout@v4
 
       - name: Install uv
         uses: astral-sh/setup-uv@v4
